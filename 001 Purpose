@@ -1,0 +1,3 @@
+Purpose
+SEC provides the filing data at https://www.sec.gov/dera/data/financial-statement-data-sets.html . The data is available but is not strucutred to be easily used for analytics.
+Created a set of programs to get the data into a structures format for additonal analysis.
