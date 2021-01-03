@@ -94,3 +94,5 @@ while folder_counter < len(qrt_folders):
     
 # Create a File combining all of the data. this is the file that will be used in subsequent steps
 df_10K.to_csv((folder_edgar+"/edgar_10K_allentries.csv"))
+
+# New Commit
