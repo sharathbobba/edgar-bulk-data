@@ -9,25 +9,27 @@ import os as diros
 df_10K = pd.DataFrame()
 df_10Q = pd.DataFrame()
 df_20F = pd.DataFrame()
+df_40F = pd.DataFrame()
 
 # A few variables
 var_10K = "10-K"
 var_10Q = "10-Q"
 var_20F = "20-F"
+var_40F = "40-F"
 var_CF = "CF"
 var_BS = "BS"
 var_IS = "IS"
 var_fln = var_10K
 
 # Unzip all of the quarterly files into this folder. Each quarterly zip file will need to be in its own folder.
-# <Will change in the next pass of updates to avoid the tedious unzipping of files>
+# Pandas cannot yet handle zip files with multiple files. Will need to change
 # the datasets are available here https://www.sec.gov/dera/data/financial-statement-data-sets.html
 
 folder_edgar = "Folder Location of the Unzipped Files"
 
 # This commands gets the folders in the location into a list
 qrt_folders = diros.listdir((folder_edgar))
-# Should see the list of folders, one folder for each quarterly datasets
+# Should see the list of folders, one folder for each quarterly dataset
 qrt_folders
 
 # This command helps format the numeric data as string
