@@ -22,6 +22,9 @@ EDGAR
 >>>>>IS
 >>>>>CF
 >>>>>GEN
+EDGAR
+>>PASS
+>>>FE
 >>>>QTR
 >>>>>BS
 >>>>>IS
