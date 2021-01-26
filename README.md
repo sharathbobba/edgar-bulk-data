@@ -15,8 +15,8 @@ Every 3 months, a new zip file is added with the 10-Q, 10-K, 20-F and other fili
 
 Folder Structure for Output Files
 EDGAR
->>PASS
->>>FE
+-PASS
+--FE
 >>>>ANN
 >>>>>BS
 >>>>>IS
