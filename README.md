@@ -14,19 +14,22 @@ Every 3 months, a new zip file is added with the 10-Q, 10-K, 20-F and other fili
 7006 - (tbc) Growth Rates, Analytics and Visuals
 
 Folder Structure for Output Files
-EDGAR
--PASS
---FE
->>>>ANN
->>>>>BS
->>>>>IS
->>>>>CF
->>>>>GEN
-EDGAR
->>PASS
->>>FE
->>>>QTR
->>>>>BS
->>>>>IS
->>>>>CF
->>>>>GEN
+
+EDGAR 
+
+EDGAR > PASS 
+
+EDGAR > PASS > FE 
+
+EDGAR > PASS > FE > ANN
+
+EDGAR > PASS > FE > ANN > IS
+EDGAR > PASS > FE > ANN > BS
+EDGAR > PASS > FE > ANN > CF
+EDGAR > PASS > FE > ANN > GEN
+
+EDGAR > PASS > FE > QTR
+EDGAR > PASS > FE > QTR > IS
+EDGAR > PASS > FE > QTR > BS
+EDGAR > PASS > FE > QTR > CF
+
